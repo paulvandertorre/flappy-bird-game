@@ -17,13 +17,13 @@ body {
   position: absolute;
 
   .sky {
-    background-color: lightblue;
+    background-image: url(/assets/fb-game-background.png);
     width: 500px;
     height: 580px;
     position: absolute;
 
     .bird {
-      background-color: yellow;
+      background-image: url(/assets/flappy-bird.png);
       position: absolute;
       height: 45px;
       width: 60px;
@@ -31,7 +31,7 @@ body {
   }
 
   .ground {
-    background-color: brown;
+    background-image: url(/assets/bottom-background.png);
     width: 500px;
     height: 150px;
     position: absolute;
